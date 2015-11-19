@@ -1,9 +1,11 @@
 # Getting-Cleaning-Data-Course-Project
 
 This is the course project for the Getting and Cleaning Data Coursera course. 
+
 The R script, run_analysis.R, assumes the compressed data files are kept in current working directory and does the following:
+
 1. Unzips the data files folder in current working directory.
-2. Changes current working directory to unzipped data files folder.
+2.Changes current working directory to unzipped data files folder.
 3. Load the activity and feature info.
 4. Reads both the training and test datasets and merges these data sets to create combined data set.
 5. Extracts only the measurements on the mean and standard deviation for each measurement in features data set.
